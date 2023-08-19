@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-container">
+          <div class="logo">GlamourGem</div>
+          <a
+            class="btn btn-secondary"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img class="menu-image" src="images/logo.png" alt="Logo"
+          /></a>
+          <ul class="navbar-dropdown" aria-labelledby="dropdownMenuButton1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Watches</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="main-content">
+      <div class="container">
+        <div class="main-content-div">
+          <div class="full-screen-filter">
+            <div class="filter-content">
+              <div class="filter">
+                <p class="filter-products"><b>Filter By</b></p>
+                <hr />
+                <div class="color-options" id="color-options">
+                  <p class="mb-2">Color</p>
+                  <ul class="list-group">
+                    <li
+                      class="list-group-item list-group-item-action mb-2 rounded color-filter-item active"
+                    >
+                      <a href="#" id="color-all"> All </a>
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-action mb-2 rounded color-filter-item"
+                    >
+                      <a href="#" id="color-brown"> Brown </a>
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-action mb-2 rounded color-filter-item"
+                    >
+                      <a href="#" id="color-red"> Red </a>
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-action mb-2 rounded color-filter-item"
+                    >
+                      <a href="#" id="color-black"> Black </a>
+                    </li>
+                    <li
+                      class="list-group-item list-group-item-action mb-2 rounded color-filter-item"
+                    >
+                      <a href="#" id="color-yellow"> Yellow </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="price-wrapper">
+                  <label for="price-range" id="price-range">Price</label>
+                  <form>
+                    <div
+                      class="form-inline border rounded p-sm-2 my-2 price-style"
+                    >
+                      <input
+                        type="radio"
+                        name="price"
+                        id="cheap"
+                        value="cheap"
+                      />
+                      <label for="cheap" class="pl-1 pt-sm-0 pt-1"
+                        >£0 - £50</label
+                      >
+                    </div>
+                    <div
+                      class="form-inline border rounded p-sm-2 my-2 price-style"
+                    >
+                      <input
+                        type="radio"
+                        name="price"
+                        id="medium"
+                        value="medium"
+                      />
+                      <label for="medium" class="pl-1 pt-sm-0 pt-1"
+                        >£50 - £100</label
+                      >
+                    </div>
+                    <div
+                      class="form-inline border rounded p-md-2 p-sm-1 price-style"
+                    >
+                      <input
+                        type="radio"
+                        name="price"
+                        id="expensive"
+                        value="expensive"
+                      />
+                      <label for="expensive" class="pl-1 pt-sm-0 pt-1"
+                        >£100 - £150</label
+                      >
+                    </div>
+                  </form>
+
+                  <div class="mobile-btns">
+                    <button
+                      id="clear-filters-button"
+                      class="btn btn-sm btn-light mt-2 clear-filters-btn"
+                    >
+                      Clear Filters
+                    </button>
+                    <button class="close-filter btn btn btn-light mt-2">
+                      Filter
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="large-main">
+            <div class="category-sort">
+              <div class="category-description">
+                <span class="category-name"></span>
+                <span class="category-desc"></span>
+                <span class="product-count"></span>
+              </div>
+
+              <div class="sort">
+                <button class="open-filter">Open Filter</button>
+                <div class="sort-select">
+                  <b class="sort-title"> Sort: </b>
+                  <select class="form-control" id="sort-select">
+                    <option value="alphabetical-asc">Alphabetical A-Z</option>
+                    <option value="alphabetical-desc">Alphabetical Z-A</option>
+                    <option value="price-asc">Price Ascending</option>
+                    <option value="price-desc">Price Descending</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div id="products-container" class="product-grid"></div>
+
+            <div
+              class="button-div paginator-container"
+              id="paginator-container"
+            >
+              <button class="load-more btn btn-light">Load More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2023 GlamourGem. All rights reserved.</p>
+        <div class="links">
+          <a href="#">T&C</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

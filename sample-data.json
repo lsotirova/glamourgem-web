@@ -1,0 +1,327 @@
+{
+  "categories": {
+    "home": {
+      "name": "All",
+      "description": "Discover trendy shoes, stylish bags, and elegant watches.",
+      "products": []
+    },
+    "bags": {
+      "name": "Bags",
+      "description": "Discover a stylish collection of bags for every occasion.",
+      "products": [
+        {
+          "id": 1,
+          "name": "Stylish Leather Bag",
+          "description": "Classy and elegant leather bag.",
+          "price": 89.99,
+          "color": "ivory",
+          "image": "images/bags/bag1.avif",
+          "ratings": 4.5,
+          "category": "bags"
+        },
+        {
+          "id": 2,
+          "name": "Light Blue Charm Bag",
+          "description": "A touch of elegance in light blue.",
+          "price": 49.99,
+          "color": "blue",
+          "image": "images/bags/bag2.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 3,
+          "name": "Ivory Dream Clutch",
+          "description": "Delicate and fashionable ivory clutch.",
+          "price": 39.99,
+          "color": "ivory",
+          "image": "images/bags/bag3.avif",
+          "ratings": 4.7,
+          "category": "bags"
+        },
+        {
+          "id": 4,
+          "name": "Chestnut Classic Bag",
+          "description": "Timeless brown tote for a sophisticated look.",
+          "price": 49.99,
+          "color": "brown",
+          "image": "images/bags/bag4.jpeg",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 5,
+          "name": "Noir Elegance Shoulder Bag",
+          "description": "Black beauty that exudes elegance.",
+          "price": 69.99,
+          "color": "black",
+          "image": "images/bags/bag5.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 6,
+          "name": "Sapphire Serenity Satchel",
+          "description": "A serene blue satchel with style.",
+          "price": 39.99,
+          "color": "blue",
+          "image": "images/bags/bag6.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 7,
+          "name": "Sunshine Yellow Crossbody",
+          "description": "Brighten up your day with this yellow bag",
+          "price": 59.99,
+          "color": "yellow",
+          "image": "images/bags/bag7.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 8,
+          "name": "Cognac Chic Messenger",
+          "description": "Brown messenger bag with a chic edge.",
+          "price": 79.99,
+          "color": "brown",
+          "image": "images/bags/bag8.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 9,
+          "name": "Chestnut Weave Bag",
+          "description": "A woven brown bag for a trendy vibe.",
+          "price": 109.99,
+          "color": "brown",
+          "image": "images/bags/bag9.jpeg",
+          "ratings": 4.3,
+          "category": "bags"
+        },
+        {
+          "id": 10,
+          "name": "Chestnut Croc Embossed Clutch",
+          "description": "Classy embossed clutch in brown.",
+          "price": 89.99,
+          "color": "brown",
+          "image": "images/bags/bag10.avif",
+          "ratings": 4.3,
+          "category": "bags"
+        }
+      ]
+    },
+    "shoes": {
+      "name": "Shoes",
+      "description": "Explore a diverse range of footwear options for men and women.",
+      "products": [
+        {
+          "id": 11,
+          "name": "Classic Sneakers",
+          "description": "Timeless sneakers for everyday wear.",
+          "price": 69.99,
+          "color": "ivory",
+          "image": "images/shoes/shoes1.jpeg",
+          "ratings": 4.2,
+          "category": "shoes"
+        },
+        {
+          "id": 12,
+          "name": "Precision White High-Tops",
+          "description": "Crisp cushioned white everyday shoes.",
+          "price": 99.99,
+          "color": "white",
+          "image": "images/shoes/shoes2.webp",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 13,
+          "name": "Black Converse Shoes",
+          "description": "Comfy shoes for every occasion.",
+          "price": 89.99,
+          "color": "black",
+          "image": "images/shoes/shoes3.avif",
+          "ratings": 4.6,
+          "category": "shoes"
+        },
+        {
+          "id": 14,
+          "name": "Sunlit Yellow Casual Sneakers",
+          "description": "Vibrant yellow sneakers for casual comfort.",
+          "price": 119.99,
+          "color": "yellow",
+          "image": "images/shoes/shoes4.jpeg",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 15,
+          "name": "Red Converse Shoes",
+          "description": "Bold red Converse shoes for an active lifestyle.",
+          "price": 119.99,
+          "color": "red",
+          "image": "images/shoes/shoes5.webp",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 16,
+          "name": "Ruby Comfortable Sneakers",
+          "description": "Unmatched cushioning in a vibrant shades.",
+          "price": 79.99,
+          "color": "red",
+          "image": "images/shoes/shoes6.avif",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 17,
+          "name": "Red Athletic Marvels",
+          "description": "Casual style red athletic marvels",
+          "price": 79.99,
+          "color": "red",
+          "image": "images/shoes/shoes7.jpeg",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 18,
+          "name": "Fade Green Lifestyle Sneakers",
+          "description": "Stylish green sneakers for urban adventures.",
+          "price": 109.99,
+          "color": "green",
+          "image": "images/shoes/shoes8.avif",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 19,
+          "name": "Vibrant Multicolor Fashion Sneakers",
+          "description": "Expressive multicolor sneakers for a unique look.",
+          "price": 49.99,
+          "color": "multiple-colors",
+          "image": "images/shoes/shoes9.jpeg",
+          "ratings": 4.8,
+          "category": "shoes"
+        },
+        {
+          "id": 20,
+          "name": "Yellow Urban Sneakers",
+          "description": "Urban-inspired sneakers.",
+          "price": 119.99,
+          "color": "yellow",
+          "image": "images/shoes/shoes10.webp",
+          "ratings": 4.8,
+          "category": "shoes"
+        }
+      ]
+    },
+    "watches": {
+      "name": "Timeless Ivory Sneakers",
+      "description": "Classic sneakers for everyday style.",
+      "products": [
+        {
+          "id": 21,
+          "name": "Black Elegance Timepiece",
+          "description": "A black watch for sophisticated style and class for a stylish look.",
+          "price": 189.99,
+          "color": "black",
+          "image": "images/watches/watch1.webp",
+          "ratings": 4.8,
+          "category": "watches"
+        },
+        {
+          "id": 22,
+          "name": "Sleek Black Modern Watch",
+          "description": "A sleek and modern black timepiece for any occasion.",
+          "price": 149.99,
+          "color": "black",
+          "image": "images/watches/watch2.avif",
+          "ratings": 4.5,
+          "category": "watches"
+        },
+        {
+          "id": 23,
+          "name": "Aviator Pilot Classic",
+          "description": "The classic aviator-style watch with an easy-to-read dial and leather strap.",
+          "price": 129.99,
+          "color": "black",
+          "image": "images/watches/watch3.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 24,
+          "name": "Brown Leather Aviator Watch",
+          "description": "Timeless aviator style with a rich brown leather strap.",
+          "price": 119.99,
+          "color": "brown",
+          "image": "images/watches/watch4.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 25,
+          "name": "Vintage Brown Aviator Watch",
+          "description": "Vintage-inspired aviator watch with a brown leather strap.",
+          "price": 109.99,
+          "color": "brown",
+          "image": "images/watches/watch5.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 26,
+          "name": "Golden Luxury Timepiece",
+          "description": "A golden watch that exudes luxury and class..",
+          "price": 89.99,
+          "color": "gold",
+          "image": "images/watches/watch6.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 27,
+          "name": "Chic Black Dial Watch",
+          "description": "A chic watch with a bold black dial for a stylish look.",
+          "price": 79.99,
+          "color": "black",
+          "image": "images/watches/watch7.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 28,
+          "name": "Elegant White Dial Watch",
+          "description": "Elegance meets functionality with a white dial.",
+          "price": 129.99,
+          "color": "white",
+          "image": "images/watches/watch8.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 29,
+          "name": "Gold Accent Timepiece",
+          "description": "A watch with a touch of gold for a unique charm.",
+          "price": 109.99,
+          "color": "yellow",
+          "image": "images/watches/watch9.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        },
+        {
+          "id": 30,
+          "name": "Classic Heritage Watch",
+          "description": "A classic watch that honors heritage and style.",
+          "price": 49.99,
+          "color": "black",
+          "image": "images/watches/watch10.avif",
+          "ratings": 4.7,
+          "category": "watches"
+        }
+      ]
+    }
+  }
+}
