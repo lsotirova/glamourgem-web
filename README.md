@@ -4,7 +4,7 @@
 This project implements a product listing page for an e-commerce website called GlamourGem. The page allows users to view and filter products by various categories, colors, and price ranges. Users can also sort products based on different criteria. When a product is added to the cart, a notification popup is displayed.
 
 
-[Preview of Project: lsotirova.github.io/glamourgem-web](https://lsotirova.github.io/glamourgem-web)
+**Preview of Project:** [lsotirova.github.io/glamourgem-web](https://lsotirova.github.io/glamourgem-web)
 
 
 ## Technologies Used
